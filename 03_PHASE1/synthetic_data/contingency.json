@@ -1,0 +1,24 @@
+{
+ "object_class": "contingency",
+ "title": "Synthetic 2x2",
+ "inputs": {
+  "cells": [
+   [
+    42,
+    158
+   ],
+   [
+    19,
+    181
+   ]
+  ],
+  "row_labels": [
+   "treated",
+   "control"
+  ],
+  "col_labels": [
+   "event",
+   "no event"
+  ]
+ }
+}

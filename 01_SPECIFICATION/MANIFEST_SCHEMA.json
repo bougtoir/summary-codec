@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.org/summary-codec/manifest.schema.json",
+  "title": "SummaryCodecManifest",
+  "type": "object",
+  "required": [
+    "codec", "codec_version", "object_id", "object_class",
+    "declared_level", "created_utc", "visible_hash", "payload_hash",
+    "manifest_hash", "object_hash", "signature_scheme", "public_key_pem",
+    "provenance", "contract"
+  ],
+  "properties": {
+    "codec": {"const": "summary-codec"},
+    "codec_version": {"type": "string"},
+    "object_id": {"type": "string"},
+    "object_class": {
+      "enum": ["mean_sd", "contingency", "histogram", "survival", "table1"]
+    },
+    "declared_level": {"enum": ["L0", "L1", "L2", "L3", "L4"]},
+    "created_utc": {"type": "string"},
+    "visible_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "payload_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "manifest_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "object_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "signature_scheme": {"const": "Ed25519"},
+    "public_key_pem": {"type": "string"},
+    "provenance": {
+      "type": "object",
+      "required": ["chain"],
+      "properties": {
+        "chain": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["event", "actor", "at_utc"],
+            "properties": {
+              "event": {"type": "string"},
+              "actor": {"type": "string"},
+              "at_utc": {"type": "string"},
+              "detail": {"type": "string"}
+            }
+          }
+        },
+        "external_refs": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "contract": {
+      "type": "object",
+      "required": ["equivalence_rule", "mandatory_checks"],
+      "properties": {
+        "equivalence_rule": {"type": "string"},
+        "mandatory_checks": {"type": "array", "items": {"type": "string"}},
+        "secondary_queries": {"type": "array", "items": {"type": "string"}},
+        "canonical_sha256": {"type": "string"}
+      }
+    },
+    "rounding_rule": {"type": "string"}
+  },
+  "additionalProperties": true
+}

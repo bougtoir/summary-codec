@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-06T22:28:06.702993+00:00",
+  "note": "raw snapshots; do not overwrite",
+  "entries": [
+    {
+      "dataset": "gbsg2",
+      "file": "raw/gbsg2.csv",
+      "sha256": "695954dbed9eaa619f9854f6c945bdccf5b21b12ea3fb46bd28797b9e8284d49",
+      "bytes": 21819,
+      "source": "lifelines.datasets.load_gbsg2 (bundled, MIT license)",
+      "origin": "German Breast Cancer Study Group 2 trial; Schumacher et al., J Clin Epidemiol 1994",
+      "retrieved_utc": "2026-10-06T22:28:06.577432+00:00",
+      "license": "public research dataset (distributed in lifelines)"
+    },
+    {
+      "dataset": "wdbc",
+      "file": "raw/wdbc.csv",
+      "sha256": "75a1d74a59df9cb0a78ecc0a36085bf8a85239557f178d3b8d758e88b26416e1",
+      "bytes": 121385,
+      "source": "sklearn.datasets.load_breast_cancer (bundled)",
+      "origin": "Wisconsin Diagnostic Breast Cancer, UCI ML Repository (Street, Wolberg, Mangasarian 1993)",
+      "retrieved_utc": "2026-10-06T22:28:06.695323+00:00",
+      "license": "CC BY 4.0 (UCI)"
+    },
+    {
+      "dataset": "diabetes",
+      "file": "raw/diabetes.csv",
+      "sha256": "217e07ce3890b29c3e6773b7a9712c3f1d1cdb2c56d697a790ebdf8ea455a052",
+      "bytes": 95136,
+      "source": "sklearn.datasets.load_diabetes (bundled)",
+      "origin": "Efron, Hastie, Johnstone, Tibshirani 2004 (LARS)",
+      "retrieved_utc": "2026-10-06T22:28:06.702981+00:00",
+      "license": "BSD-style redistribution via scikit-learn"
+    }
+  ]
+}

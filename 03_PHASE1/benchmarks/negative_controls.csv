@@ -1,0 +1,6 @@
+control,file,codec_status,recoverable,declared_level,machine_verified_guarantee,semantic_validation,tamper_evidence,provenance,secondary_analysis
+ordinary_figure,plain_figure.png,PAYLOAD_MISSING,False,none,False,False,False,False,False
+figure_plus_csv,data.csv,n/a,True,implicit-raw,False,False,False,False,True
+figure_plus_zip,figure_plus_data.zip,n/a,True,implicit-raw,False,False,False,False,True
+embedded_without_contract,embedded_no_contract.png,CORRUPT,True,undeclared,False,False,False,False,True
+summary_codec_L4,mean_sd_small_L4.png,VALID,True,L4,True,True,True,True,True

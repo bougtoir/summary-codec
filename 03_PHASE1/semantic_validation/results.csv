@@ -1,0 +1,15 @@
+object,case,accepted,observed
+mean_sd_small,true_valid,True,
+mean_sd_small,mismatch_rejected,False,SIGNATURE_INVALID
+mean_sd_large,true_valid,True,
+mean_sd_large,mismatch_rejected,False,SIGNATURE_INVALID
+contingency,true_valid,True,
+contingency,mismatch_rejected,False,SIGNATURE_INVALID
+histogram_small,true_valid,True,
+histogram_small,mismatch_rejected,False,SIGNATURE_INVALID
+histogram_large,true_valid,True,
+histogram_large,mismatch_rejected,False,SIGNATURE_INVALID
+survival,true_valid,True,
+survival,mismatch_rejected,False,SIGNATURE_INVALID
+table1,true_valid,True,
+table1,mismatch_rejected,False,SIGNATURE_INVALID

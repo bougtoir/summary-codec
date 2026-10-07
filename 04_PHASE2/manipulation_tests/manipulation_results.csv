@@ -1,0 +1,68 @@
+object,format,manipulation,note,observed,classification
+gbsg2_km_horth,svg,replace_panel,first graphical element removed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,svg,change_plotted_value,visible numeric label changed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,svg,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,svg,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_km_horth,svg,re_signed_semantic,payload displayed[no|events] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+gbsg2_km_horth,png,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,png,change_plotted_value,n/a-format,VALID,n/a
+gbsg2_km_horth,png,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,png,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_km_horth,png,re_signed_semantic,payload displayed[no|events] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+gbsg2_km_horth,tiff,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,tiff,change_plotted_value,n/a-format,VALID,n/a
+gbsg2_km_horth,tiff,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,tiff,alter_tiff_pixels,tiff corner blacked out,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_km_horth,tiff,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_km_horth,tiff,re_signed_semantic,payload displayed[no|events] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+gbsg2_table1,svg,replace_panel,first graphical element removed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,svg,change_plotted_value,visible numeric label changed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,svg,change_table_cell,visible numeric label changed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,svg,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,svg,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_table1,svg,re_signed_semantic,"payload displayed[Age, y|no] edited + re-signed",SEMANTIC_MISMATCH,semantically detected
+gbsg2_table1,png,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,png,change_plotted_value,n/a-format,VALID,n/a
+gbsg2_table1,png,change_table_cell,n/a-format,VALID,n/a
+gbsg2_table1,png,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,png,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_table1,png,re_signed_semantic,"payload displayed[Age, y|no] edited + re-signed",SEMANTIC_MISMATCH,semantically detected
+gbsg2_table1,tiff,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,tiff,change_plotted_value,n/a-format,VALID,n/a
+gbsg2_table1,tiff,change_table_cell,n/a-format,VALID,n/a
+gbsg2_table1,tiff,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,tiff,alter_tiff_pixels,tiff corner blacked out,PARTIALLY_VERIFIABLE,cryptographically detected
+gbsg2_table1,tiff,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+gbsg2_table1,tiff,re_signed_semantic,"payload displayed[Age, y|no] edited + re-signed",SEMANTIC_MISMATCH,semantically detected
+wdbc_mean_sd,svg,replace_panel,first graphical element removed,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,svg,change_plotted_value,visible numeric label changed,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,svg,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,svg,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+wdbc_mean_sd,svg,re_signed_semantic,payload displayed[benign|ci95] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+wdbc_mean_sd,png,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,png,change_plotted_value,n/a-format,VALID,n/a
+wdbc_mean_sd,png,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,png,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+wdbc_mean_sd,png,re_signed_semantic,payload displayed[benign|ci95] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+wdbc_mean_sd,tiff,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,tiff,change_plotted_value,n/a-format,VALID,n/a
+wdbc_mean_sd,tiff,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,tiff,alter_tiff_pixels,tiff corner blacked out,PARTIALLY_VERIFIABLE,cryptographically detected
+wdbc_mean_sd,tiff,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+wdbc_mean_sd,tiff,re_signed_semantic,payload displayed[benign|ci95] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+diabetes_hist_bmi,svg,replace_panel,first graphical element removed,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,svg,change_plotted_value,visible numeric label changed,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,svg,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,svg,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+diabetes_hist_bmi,svg,re_signed_semantic,payload displayed[bin0] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+diabetes_hist_bmi,png,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,png,change_plotted_value,n/a-format,VALID,n/a
+diabetes_hist_bmi,png,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,png,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+diabetes_hist_bmi,png,re_signed_semantic,payload displayed[bin0] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
+diabetes_hist_bmi,tiff,replace_panel,panel band zeroed,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,tiff,change_plotted_value,n/a-format,VALID,n/a
+diabetes_hist_bmi,tiff,swap_payload,foreign envelope embedded,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,tiff,alter_tiff_pixels,tiff corner blacked out,PARTIALLY_VERIFIABLE,cryptographically detected
+diabetes_hist_bmi,tiff,strip_metadata,envelope removed,PAYLOAD_MISSING,cryptographically detected
+diabetes_hist_bmi,tiff,re_signed_semantic,payload displayed[bin0] edited + re-signed,SEMANTIC_MISMATCH,semantically detected
